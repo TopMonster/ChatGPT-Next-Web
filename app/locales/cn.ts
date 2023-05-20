@@ -4,7 +4,7 @@ const cn = {
   WIP: "该功能仍在开发中……",
   Error: {
     Unauthorized:
-      "访问密码不正确，请找top咨询对应访问密码后，前往[设置](/#/settings)页输入正确的访问密码，可",
+      "请找top咨询对应访问密码后，前往[设置](/#/settings)页输入正确的访问密码,方可开启AI聊天",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} 条对话`,
@@ -181,9 +181,9 @@ const cn = {
     Name: "插件",
   },
   Mask: {
-    Name: "面具",
+    Name: "分类",
     Page: {
-      Title: "预设角色面具",
+      Title: "预设角色分类面具",
       SubTitle: (count: number) => `${count} 个预设角色定义`,
       Search: "搜索角色面具",
       Create: "新建",
